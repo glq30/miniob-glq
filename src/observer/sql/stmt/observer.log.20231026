@@ -1,0 +1,187 @@
+[2023-10-26 08:54:29.161064 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init@init.cpp:236] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2023-10-26 08:54:29.164038 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.165325 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.166009 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.166896 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.167633 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.169458 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.170681 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.171872 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.172901 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.175924 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.177068 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.177989 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.178548 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.180187 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.180825 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.181542 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.182238 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.183912 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.186362 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.189574 pid:14603 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.191357 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init@mem_pool.h:211] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 08:54:29.196068 pid:14603 tid:7ffff79d0740 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:622] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2023-10-26 08:54:29.219110 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init@clog.cpp:310] >> open clog file success. file=miniob/db/sys/clog, fd=4
+[2023-10-26 08:54:29.228545 pid:14603 tid:7ffff79d0740 ctx:0 INFO: open_all_tables@db.cpp:172] >> All table have been opened. num=0
+[2023-10-26 08:54:29.230552 pid:14603 tid:7ffff79d0740 ctx:0 INFO: recover@clog.cpp:569] >> find 0 uncommitted trx
+[2023-10-26 08:54:29.231163 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init@default_handler.cpp:83] >> Default handler init with miniob success
+[2023-10-26 08:54:29.231716 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:63] >> (Re)Starting State: Pid: 14603 Time: Thu Oct 26 08:54:29 2023
+
+[2023-10-26 08:54:29.232158 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:64] >> The process Name is observer
+[2023-10-26 08:54:29.232757 pid:14603 tid:7ffff79d0740 ctx:0 INFO: init_event_history@seda_config.cpp:209] >> Successfully init_event_history, EventHistory:0, MaxEventHops:100
+[2023-10-26 08:54:29.233750 pid:14603 tid:7ffff79d0740 ctx:0 ERROR: init_thread_pool@seda_config.cpp:225] >> Configuration hasn't set ThreadPools
+[2023-10-26 08:54:29.247566 pid:14603 tid:7ffff79d0740 ctx:0 ERROR: instantiate@seda_config.cpp:421] >> Failed to init thread pool
+
+[2023-10-26 08:54:29.248170 pid:14603 tid:7ffff79d0740 ctx:0 ERROR: init_seda@init.cpp:69] >> SedaConfig: unable to initialize seda stages
+[2023-10-26 08:54:29.248669 pid:14603 tid:7ffff79d0740 ctx:0 ERROR: init@init.cpp:250] >> Failed to init seda configuration!
+[2023-10-26 08:54:29.249185 pid:14603 tid:7ffff79d0740 ctx:0 INFO: sync@db.cpp:200] >> Successfully sync db. db=sys
+[2023-10-26 08:54:29.249612 pid:14603 tid:7ffff79d0740 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2023-10-26 08:54:29.250372 pid:14603 tid:7ffff79d0740 ctx:0 INFO: ~CLogFile@clog.cpp:317] >> close clog file. file=miniob/db/sys/clog, fd=4
+[2023-10-26 08:54:29.254443 pid:14603 tid:7ffff79d0740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
+[2023-10-26 08:54:29.255309 pid:14603 tid:7ffff79d0740 ctx:0 INFO: cleanup_util@init.cpp:275] >> Shutdown Cleanly!
+[2023-10-26 09:02:56.234179 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init@init.cpp:236] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2023-10-26 09:02:56.237012 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.238872 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.239725 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.240633 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.242417 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.244420 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.245333 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.246296 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.247174 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.248836 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.249715 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.250536 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.251545 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.253878 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.254819 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.255744 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.256597 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.258442 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.259165 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.259919 pid:20363 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.260400 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init@mem_pool.h:211] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 09:02:56.260841 pid:20363 tid:7ffff79d0740 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:622] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2023-10-26 09:02:56.269055 pid:20363 tid:7ffff79d0740 ctx:0 WARN: create_db@default_handler.cpp:107] >> Db already exists: sys
+[2023-10-26 09:02:56.282315 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init@clog.cpp:310] >> open clog file success. file=miniob/db/sys/clog, fd=4
+[2023-10-26 09:02:56.285684 pid:20363 tid:7ffff79d0740 ctx:0 INFO: open_all_tables@db.cpp:172] >> All table have been opened. num=0
+[2023-10-26 09:02:56.287565 pid:20363 tid:7ffff79d0740 ctx:0 INFO: recover@clog.cpp:569] >> find 0 uncommitted trx
+[2023-10-26 09:02:56.288247 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init@default_handler.cpp:83] >> Default handler init with miniob success
+[2023-10-26 09:02:56.288873 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:63] >> (Re)Starting State: Pid: 20363 Time: Thu Oct 26 09:02:56 2023
+
+[2023-10-26 09:02:56.289383 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:64] >> The process Name is observer
+[2023-10-26 09:02:56.290161 pid:20363 tid:7ffff79d0740 ctx:0 INFO: init_event_history@seda_config.cpp:209] >> Successfully init_event_history, EventHistory:0, MaxEventHops:100
+[2023-10-26 09:02:56.290645 pid:20363 tid:7ffff79d0740 ctx:0 ERROR: init_thread_pool@seda_config.cpp:225] >> Configuration hasn't set ThreadPools
+[2023-10-26 09:02:56.302416 pid:20363 tid:7ffff79d0740 ctx:0 ERROR: instantiate@seda_config.cpp:421] >> Failed to init thread pool
+
+[2023-10-26 09:02:56.302922 pid:20363 tid:7ffff79d0740 ctx:0 ERROR: init_seda@init.cpp:69] >> SedaConfig: unable to initialize seda stages
+[2023-10-26 09:02:56.303474 pid:20363 tid:7ffff79d0740 ctx:0 ERROR: init@init.cpp:250] >> Failed to init seda configuration!
+[2023-10-26 09:02:56.304281 pid:20363 tid:7ffff79d0740 ctx:0 INFO: sync@db.cpp:200] >> Successfully sync db. db=sys
+[2023-10-26 09:02:56.304768 pid:20363 tid:7ffff79d0740 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2023-10-26 09:02:56.305223 pid:20363 tid:7ffff79d0740 ctx:0 INFO: ~CLogFile@clog.cpp:317] >> close clog file. file=miniob/db/sys/clog, fd=4
+[2023-10-26 09:02:56.308823 pid:20363 tid:7ffff79d0740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
+[2023-10-26 09:02:56.309350 pid:20363 tid:7ffff79d0740 ctx:0 INFO: cleanup_util@init.cpp:275] >> Shutdown Cleanly!
+[2023-10-26 14:11:02.924098 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init@init.cpp:236] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2023-10-26 14:11:02.927100 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.927916 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.928692 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.929746 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.930732 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.931505 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.932633 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.933308 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.934001 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.934594 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.935973 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.936666 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.937367 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.937976 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.939314 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.939987 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.940708 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.941432 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.942618 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.943408 pid:6885 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.943713 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init@mem_pool.h:211] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:11:02.944153 pid:6885 tid:7ffff79d0740 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:622] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2023-10-26 14:11:02.950311 pid:6885 tid:7ffff79d0740 ctx:0 WARN: create_db@default_handler.cpp:107] >> Db already exists: sys
+[2023-10-26 14:11:02.959062 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init@clog.cpp:310] >> open clog file success. file=miniob/db/sys/clog, fd=4
+[2023-10-26 14:11:02.961643 pid:6885 tid:7ffff79d0740 ctx:0 INFO: open_all_tables@db.cpp:172] >> All table have been opened. num=0
+[2023-10-26 14:11:02.962293 pid:6885 tid:7ffff79d0740 ctx:0 INFO: recover@clog.cpp:569] >> find 0 uncommitted trx
+[2023-10-26 14:11:02.962648 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init@default_handler.cpp:83] >> Default handler init with miniob success
+[2023-10-26 14:11:02.962999 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:63] >> (Re)Starting State: Pid: 6885 Time: Thu Oct 26 14:11:02 2023
+
+[2023-10-26 14:11:02.963291 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:64] >> The process Name is observer
+[2023-10-26 14:11:02.963596 pid:6885 tid:7ffff79d0740 ctx:0 INFO: init_event_history@seda_config.cpp:209] >> Successfully init_event_history, EventHistory:0, MaxEventHops:100
+[2023-10-26 14:11:02.963849 pid:6885 tid:7ffff79d0740 ctx:0 ERROR: init_thread_pool@seda_config.cpp:225] >> Configuration hasn't set ThreadPools
+[2023-10-26 14:11:02.964152 pid:6885 tid:7ffff79d0740 ctx:0 ERROR: instantiate@seda_config.cpp:421] >> Failed to init thread pool
+
+[2023-10-26 14:11:02.964407 pid:6885 tid:7ffff79d0740 ctx:0 ERROR: init_seda@init.cpp:69] >> SedaConfig: unable to initialize seda stages
+[2023-10-26 14:11:02.964656 pid:6885 tid:7ffff79d0740 ctx:0 ERROR: init@init.cpp:250] >> Failed to init seda configuration!
+[2023-10-26 14:11:02.964970 pid:6885 tid:7ffff79d0740 ctx:0 INFO: sync@db.cpp:200] >> Successfully sync db. db=sys
+[2023-10-26 14:11:02.965236 pid:6885 tid:7ffff79d0740 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2023-10-26 14:11:02.965487 pid:6885 tid:7ffff79d0740 ctx:0 INFO: ~CLogFile@clog.cpp:317] >> close clog file. file=miniob/db/sys/clog, fd=4
+[2023-10-26 14:11:02.968520 pid:6885 tid:7ffff79d0740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
+[2023-10-26 14:11:02.968949 pid:6885 tid:7ffff79d0740 ctx:0 INFO: cleanup_util@init.cpp:275] >> Shutdown Cleanly!
+[2023-10-26 14:20:07.467781 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init@init.cpp:236] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2023-10-26 14:20:07.470872 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.471594 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.472262 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.472911 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.473534 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.474232 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.474701 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.475384 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.476054 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.476681 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.477281 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.477908 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.478546 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.479114 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.479709 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.480439 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.481054 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.481644 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.482234 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.482855 pid:14554 tid:7ffff79d0740 ctx:0 INFO: extend@mem_pool.h:264] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.483201 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init@mem_pool.h:211] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2023-10-26 14:20:07.483536 pid:14554 tid:7ffff79d0740 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:622] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2023-10-26 14:20:07.492884 pid:14554 tid:7ffff79d0740 ctx:0 WARN: create_db@default_handler.cpp:107] >> Db already exists: sys
+[2023-10-26 14:20:07.504611 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init@clog.cpp:310] >> open clog file success. file=miniob/db/sys/clog, fd=4
+[2023-10-26 14:20:07.507742 pid:14554 tid:7ffff79d0740 ctx:0 INFO: open_all_tables@db.cpp:172] >> All table have been opened. num=0
+[2023-10-26 14:20:07.508994 pid:14554 tid:7ffff79d0740 ctx:0 INFO: recover@clog.cpp:569] >> find 0 uncommitted trx
+[2023-10-26 14:20:07.509585 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init@default_handler.cpp:83] >> Default handler init with miniob success
+[2023-10-26 14:20:07.510890 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:63] >> (Re)Starting State: Pid: 14554 Time: Thu Oct 26 14:20:07 2023
+
+[2023-10-26 14:20:07.511826 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init_seda@init.cpp:64] >> The process Name is observer
+[2023-10-26 14:20:07.512186 pid:14554 tid:7ffff79d0740 ctx:0 INFO: init_event_history@seda_config.cpp:209] >> Successfully init_event_history, EventHistory:0, MaxEventHops:100
+[2023-10-26 14:20:07.512545 pid:14554 tid:7ffff79d0740 ctx:0 ERROR: init_thread_pool@seda_config.cpp:225] >> Configuration hasn't set ThreadPools
+[2023-10-26 14:20:07.512915 pid:14554 tid:7ffff79d0740 ctx:0 ERROR: instantiate@seda_config.cpp:421] >> Failed to init thread pool
+
+[2023-10-26 14:20:07.513217 pid:14554 tid:7ffff79d0740 ctx:0 ERROR: init_seda@init.cpp:69] >> SedaConfig: unable to initialize seda stages
+[2023-10-26 14:20:07.513563 pid:14554 tid:7ffff79d0740 ctx:0 ERROR: init@init.cpp:250] >> Failed to init seda configuration!
+[2023-10-26 14:20:07.513931 pid:14554 tid:7ffff79d0740 ctx:0 INFO: sync@db.cpp:200] >> Successfully sync db. db=sys
+[2023-10-26 14:20:07.514418 pid:14554 tid:7ffff79d0740 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2023-10-26 14:20:07.514776 pid:14554 tid:7ffff79d0740 ctx:0 INFO: ~CLogFile@clog.cpp:317] >> close clog file. file=miniob/db/sys/clog, fd=4
+[2023-10-26 14:20:07.517753 pid:14554 tid:7ffff79d0740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
+[2023-10-26 14:20:07.518237 pid:14554 tid:7ffff79d0740 ctx:0 INFO: cleanup_util@init.cpp:275] >> Shutdown Cleanly!
